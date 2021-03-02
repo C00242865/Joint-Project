@@ -1,0 +1,89 @@
+body {
+    background-image: url("background.png"), url("background.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .display {
+    background: #cccccc;
+    float: center; 
+    border: 1px solid rgb(48, 41, 41);
+    box-sizing: border-box;
+    background-color: rgb(224, 231, 231);
+    padding: 20px;
+    height: 60%;
+    font : 1em "typewriter", sans-serif;
+  }
+  .p {
+    background-color: white;
+    font : 1em "typewriter", sans-serif;
+    height: 85%;
+    width: 60%;
+    float:right;
+    position: relative;
+    padding: 12px;
+  }
+  .header {
+    padding: 40px;
+    height:8%;
+    text-align: center;
+    background-color: #2f4877;
+    color: white;
+    background-image: url("header.jpg"), url("header.jpg");
+    background-repeat: no-repeat;
+    font :"typewriter", sans-serif;
+  }
+  .menu {
+      width: 35%;
+      float: left;
+      clear: both;
+      padding: 12px;
+      height: 100%;
+      position: relative;
+    }
+    .menu a {
+      background-color: #eee;
+      color: black;
+      display: block;
+      padding: 12px;
+      text-decoration: none;
+      text-align: center;
+      height:17%;
+      font : 1.5em "typewriter", sans-serif;
+    }
+    
+    .menu a:hover {
+      background-color: #ccc;
+      height: 17%;
+      text-align: center;
+      vertical-align: middle;
+      font : 1.5em "typewriter", sans-serif;
+    }
+    
+    .menu a.active {
+      background-color: #4c93af;
+      color: white;
+      height: 17%;
+      text-align: center;
+      vertical-align: middle;
+      font : 1.5em "typewriter", sans-serif;
+    }
+  .footer {
+      padding: 40px;
+      height:8%;
+      text-align: center;
+      background-color: #2f4877;
+      color: white;
+      background-image: url("header.jpg"), url("header.jpg");
+      background-repeat: no-repeat;
+      font : 1em "typewriter", sans-serif;
+    }
+    .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+      align-content: center;
+    }
+    label {
+      font : 1em "typewriter", sans-serif;
+    }
